@@ -2,8 +2,9 @@ import time
 class Dog:
     AGE_COEF:int = 7
     KIND:str = "cainie"
-    N_EYES:int = 2
-    N_LEGS:int = 5
+    N_DOG_EYES:int = 2
+    N_DOG_LEGS:int = 5
+    N_DOG_EARS:int = 2
     
     def __init__(self, name:str, owner:str, age:int) -> None:
         self.name:str = name
@@ -20,8 +21,8 @@ class Dog:
         for _ in range(0,throws):
             print(f"{self.owner} throws the ball!")
             time.sleep(1)
-            print(f"{self.name} catches the ball and returns it")
-            time.sleep(.2)
+            print(f"{self.name} catches the ball and returns it fast")
+            time.sleep(.25)
             
         
 if __name__ == "__main__":
