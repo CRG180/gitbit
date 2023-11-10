@@ -2,8 +2,8 @@
 class Dog:
     AGE_COEF:int = 7
     KIND:str = "cainie"
-    N_EYES:int = 2
-    N_LEGS:int = 5
+    N_EYES_DOG:int = 2
+    N_LEGS_DOG:int = 5
     
     def __init__(self, name:str, age:int) -> None:
         self.name:str = name
